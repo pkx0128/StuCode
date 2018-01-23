@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  本地化实例
+
+  Created by pankx on 2018/1/10.
+  Copyright © 2018年 pank. All rights reserved.
+*/
+
+CFBundleName = "Account";
+

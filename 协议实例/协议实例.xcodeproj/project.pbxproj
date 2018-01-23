@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F37C2361FFDD21500C2C6E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37C2351FFDD21500C2C6E1 /* AppDelegate.swift */; };
-		4F37C2381FFDD21500C2C6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37C2371FFDD21500C2C6E1 /* ViewController.swift */; };
-		4F37C23B1FFDD21500C2C6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F37C2391FFDD21500C2C6E1 /* Main.storyboard */; };
-		4F37C23D1FFDD21500C2C6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F37C23C1FFDD21500C2C6E1 /* Assets.xcassets */; };
-		4F37C2401FFDD21500C2C6E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F37C23E1FFDD21500C2C6E1 /* LaunchScreen.storyboard */; };
+		4F5422602001CD5D007C939A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54225F2001CD5D007C939A /* AppDelegate.swift */; };
+		4F5422622001CD5D007C939A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5422612001CD5D007C939A /* ViewController.swift */; };
+		4F5422652001CD5D007C939A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5422632001CD5D007C939A /* Main.storyboard */; };
+		4F5422672001CD5D007C939A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5422662001CD5D007C939A /* Assets.xcassets */; };
+		4F54226A2001CD5D007C939A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5422682001CD5D007C939A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F37C2321FFDD21500C2C6E1 /* 闭包的循环引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闭包的循环引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F37C2351FFDD21500C2C6E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F37C2371FFDD21500C2C6E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F37C23A1FFDD21500C2C6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F37C23C1FFDD21500C2C6E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F37C23F1FFDD21500C2C6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F37C2411FFDD21500C2C6E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F54225C2001CD5D007C939A /* 协议实例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "协议实例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F54225F2001CD5D007C939A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F5422612001CD5D007C939A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F5422642001CD5D007C939A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5422662001CD5D007C939A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5422692001CD5D007C939A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F54226B2001CD5D007C939A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F37C22F1FFDD21500C2C6E1 /* Frameworks */ = {
+		4F5422592001CD5D007C939A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,80 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F37C2291FFDD21500C2C6E1 = {
+		4F5422532001CD5D007C939A = {
 			isa = PBXGroup;
 			children = (
-				4F37C2341FFDD21500C2C6E1 /* 闭包的循环引用 */,
-				4F37C2331FFDD21500C2C6E1 /* Products */,
+				4F54225E2001CD5D007C939A /* 协议实例 */,
+				4F54225D2001CD5D007C939A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F37C2331FFDD21500C2C6E1 /* Products */ = {
+		4F54225D2001CD5D007C939A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F37C2321FFDD21500C2C6E1 /* 闭包的循环引用.app */,
+				4F54225C2001CD5D007C939A /* 协议实例.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F37C2341FFDD21500C2C6E1 /* 闭包的循环引用 */ = {
+		4F54225E2001CD5D007C939A /* 协议实例 */ = {
 			isa = PBXGroup;
 			children = (
-				4FF497091FFF346A002C5C01 /* 未命名文件夹 */,
-				4F37C2351FFDD21500C2C6E1 /* AppDelegate.swift */,
-				4F37C2371FFDD21500C2C6E1 /* ViewController.swift */,
-				4F37C2391FFDD21500C2C6E1 /* Main.storyboard */,
-				4F37C23C1FFDD21500C2C6E1 /* Assets.xcassets */,
-				4F37C23E1FFDD21500C2C6E1 /* LaunchScreen.storyboard */,
-				4F37C2411FFDD21500C2C6E1 /* Info.plist */,
+				4F54225F2001CD5D007C939A /* AppDelegate.swift */,
+				4F5422612001CD5D007C939A /* ViewController.swift */,
+				4F5422632001CD5D007C939A /* Main.storyboard */,
+				4F5422662001CD5D007C939A /* Assets.xcassets */,
+				4F5422682001CD5D007C939A /* LaunchScreen.storyboard */,
+				4F54226B2001CD5D007C939A /* Info.plist */,
 			);
-			path = "闭包的循环引用";
-			sourceTree = "<group>";
-		};
-		4FF497091FFF346A002C5C01 /* 未命名文件夹 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "未命名文件夹";
+			path = "协议实例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F37C2311FFDD21500C2C6E1 /* 闭包的循环引用 */ = {
+		4F54225B2001CD5D007C939A /* 协议实例 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F37C2441FFDD21500C2C6E1 /* Build configuration list for PBXNativeTarget "闭包的循环引用" */;
+			buildConfigurationList = 4F54226E2001CD5D007C939A /* Build configuration list for PBXNativeTarget "协议实例" */;
 			buildPhases = (
-				4F37C22E1FFDD21500C2C6E1 /* Sources */,
-				4F37C22F1FFDD21500C2C6E1 /* Frameworks */,
-				4F37C2301FFDD21500C2C6E1 /* Resources */,
+				4F5422582001CD5D007C939A /* Sources */,
+				4F5422592001CD5D007C939A /* Frameworks */,
+				4F54225A2001CD5D007C939A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "闭包的循环引用";
-			productName = "闭包的循环引用";
-			productReference = 4F37C2321FFDD21500C2C6E1 /* 闭包的循环引用.app */;
+			name = "协议实例";
+			productName = "协议实例";
+			productReference = 4F54225C2001CD5D007C939A /* 协议实例.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F37C22A1FFDD21500C2C6E1 /* Project object */ = {
+		4F5422542001CD5D007C939A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = pank;
 				TargetAttributes = {
-					4F37C2311FFDD21500C2C6E1 = {
+					4F54225B2001CD5D007C939A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4F37C22D1FFDD21500C2C6E1 /* Build configuration list for PBXProject "闭包的循环引用" */;
+			buildConfigurationList = 4F5422572001CD5D007C939A /* Build configuration list for PBXProject "协议实例" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F37C2291FFDD21500C2C6E1;
-			productRefGroup = 4F37C2331FFDD21500C2C6E1 /* Products */;
+			mainGroup = 4F5422532001CD5D007C939A;
+			productRefGroup = 4F54225D2001CD5D007C939A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F37C2311FFDD21500C2C6E1 /* 闭包的循环引用 */,
+				4F54225B2001CD5D007C939A /* 协议实例 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F37C2301FFDD21500C2C6E1 /* Resources */ = {
+		4F54225A2001CD5D007C939A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F37C2401FFDD21500C2C6E1 /* LaunchScreen.storyboard in Resources */,
-				4F37C23D1FFDD21500C2C6E1 /* Assets.xcassets in Resources */,
-				4F37C23B1FFDD21500C2C6E1 /* Main.storyboard in Resources */,
+				4F54226A2001CD5D007C939A /* LaunchScreen.storyboard in Resources */,
+				4F5422672001CD5D007C939A /* Assets.xcassets in Resources */,
+				4F5422652001CD5D007C939A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F37C22E1FFDD21500C2C6E1 /* Sources */ = {
+		4F5422582001CD5D007C939A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F37C2381FFDD21500C2C6E1 /* ViewController.swift in Sources */,
-				4F37C2361FFDD21500C2C6E1 /* AppDelegate.swift in Sources */,
+				4F5422622001CD5D007C939A /* ViewController.swift in Sources */,
+				4F5422602001CD5D007C939A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4F37C2391FFDD21500C2C6E1 /* Main.storyboard */ = {
+		4F5422632001CD5D007C939A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F37C23A1FFDD21500C2C6E1 /* Base */,
+				4F5422642001CD5D007C939A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4F37C23E1FFDD21500C2C6E1 /* LaunchScreen.storyboard */ = {
+		4F5422682001CD5D007C939A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F37C23F1FFDD21500C2C6E1 /* Base */,
+				4F5422692001CD5D007C939A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F37C2421FFDD21500C2C6E1 /* Debug */ = {
+		4F54226C2001CD5D007C939A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		4F37C2431FFDD21500C2C6E1 /* Release */ = {
+		4F54226D2001CD5D007C939A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,30 +270,30 @@
 			};
 			name = Release;
 		};
-		4F37C2451FFDD21500C2C6E1 /* Debug */ = {
+		4F54226F2001CD5D007C939A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZVTV26L8D;
-				INFOPLIST_FILE = "闭包的循环引用/Info.plist";
+				INFOPLIST_FILE = "协议实例/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pankx.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pankx.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4F37C2461FFDD21500C2C6E1 /* Release */ = {
+		4F5422702001CD5D007C939A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZVTV26L8D;
-				INFOPLIST_FILE = "闭包的循环引用/Info.plist";
+				INFOPLIST_FILE = "协议实例/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pankx.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pankx.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F37C22D1FFDD21500C2C6E1 /* Build configuration list for PBXProject "闭包的循环引用" */ = {
+		4F5422572001CD5D007C939A /* Build configuration list for PBXProject "协议实例" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F37C2421FFDD21500C2C6E1 /* Debug */,
-				4F37C2431FFDD21500C2C6E1 /* Release */,
+				4F54226C2001CD5D007C939A /* Debug */,
+				4F54226D2001CD5D007C939A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F37C2441FFDD21500C2C6E1 /* Build configuration list for PBXNativeTarget "闭包的循环引用" */ = {
+		4F54226E2001CD5D007C939A /* Build configuration list for PBXNativeTarget "协议实例" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F37C2451FFDD21500C2C6E1 /* Debug */,
-				4F37C2461FFDD21500C2C6E1 /* Release */,
+				4F54226F2001CD5D007C939A /* Debug */,
+				4F5422702001CD5D007C939A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F37C22A1FFDD21500C2C6E1 /* Project object */;
+	rootObject = 4F5422542001CD5D007C939A /* Project object */;
 }
